@@ -25,7 +25,7 @@ const config = {
       delay: 100000
     },
     movement: {
-      enabled: true,
+      enabled: false,
       coordinates: {
         x: 0, // Change to your desired AFK coordinates
         y: 64,
@@ -33,10 +33,10 @@ const config = {
       }
     },
     antiAFK: {
-      enabled: true,
-      jump: true,
+      enabled: false,
+      jump: false,
       sneak: false,
-      look: true,
+      look: false,
       interval: 30000 // 30 seconds
     },
     chatMessages: {

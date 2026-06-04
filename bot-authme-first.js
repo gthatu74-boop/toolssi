@@ -5,7 +5,7 @@ const { pathfinder, Movements, goals } = require('mineflayer-pathfinder');
 const config = {
   server: {
     host: '15.235.144.96', // Change to your server IP
-    port: 13029,
+    port: 13020,
     version: '1.20.4' // Change to your server version
   },
   bot: {

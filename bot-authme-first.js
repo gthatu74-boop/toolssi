@@ -22,7 +22,7 @@ const config = {
   features: {
     autoReconnect: {
       enabled: true,
-      delay: 25000
+      delay: 100000
     },
     movement: {
       enabled: true,
